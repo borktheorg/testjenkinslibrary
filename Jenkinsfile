@@ -6,6 +6,7 @@ stage('Demo') {
     echo 'Hello World'
     sayHello 'Sushant', 'as', 'sss'
 
-    getRepoURL()
-    getCommitSha()
+
+    this.getRepoURL()
+    this.getCommitSha()
 }
